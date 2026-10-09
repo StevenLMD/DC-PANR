@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dc-panr"
+version = "1.0.0"
+description = "Direction-Conditioned Pilot-Aided Neural Receiver for Cochannel Signal Separation"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Mingdi Li"}]
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24,<3", "torch>=2.4,<3"]
+keywords = ["signal separation", "pilot aided", "neural receiver", "DOA", "wireless communications"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.setuptools.packages.find]
+include = ["dc_panr*"]

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the IEEE Wireless Communications Letters article."
+title: "DC-PANR: Direction-Conditioned Pilot-Aided Neural Receiver"
+version: 1.0.0
+date-released: 2026-10-09
+type: software
+authors:
+  - family-names: Li
+    given-names: Mingdi
+  - family-names: Li
+    given-names: Yanbin
+  - family-names: Xie
+    given-names: Jun
+  - family-names: Feng
+    given-names: Qi
+preferred-citation:
+  type: article
+  title: "Direction-Conditioned Pilot-Aided Neural Receiver for Cochannel Signal Separation"
+  authors:
+    - family-names: Li
+      given-names: Mingdi
+    - family-names: Li
+      given-names: Yanbin
+    - family-names: Xie
+      given-names: Jun
+    - family-names: Feng
+      given-names: Qi
+  journal: "IEEE Wireless Communications Letters"
+  year: 2026
+  doi: 10.1109/LWC.2026.3741686
